@@ -6,6 +6,66 @@
     <title>portfolio-project-contact</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <p> 
+                <a href="index.html">Home</a> |
+                <a href="about.html">About</a> |
+                <a href="contact.html">Contact</a>
+            </p> 
+            <div>
+                <a href="#contact info">Contact Information</a> |
+                <a href="#form">Feedback</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="contact info">
+            <h2>Contact Information</h2>
+            <p>Contact me at Email: <a href="mailto:kokebeaschalew@gmail.com">kokebeaschalew@gmail.com</a></p>
+            <p>Telephone number: <a href="tel:+251 967526556">+251 967526556</a></p>
+            <span><a href="https://github.com/mastars-z" target="_blank"><img title="github account"  src="https://th.bing.com/th/id/R.7a864f07681f187fb572468bfc949977?rik=3fUik6Pc6xTrHQ&pid=ImgRaw&r=0" width="25" height="25" alt="github logo"></a>
+            <a href="https://www.linkedin.com/in/kokebe-aschalew-001916348" target="_blank"><img title="linkedin account" src="https://static.vecteezy.com/system/resources/previews/018/930/587/large_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" width="25" height="25" alt="linkedin logo"></a>
+            <a href="https://web.telegram.org/k" target="_blank"><img title="telegram account" src="https://cdn.icon-icons.com/icons2/2992/PNG/512/telegram_logo_icon_187310.png" width="25" height="25" alt="telegram logo"></a>
+            </span>
+        </section>
+        </section>
+        <section>
+            <h2>Send Feedback</h2>
+            <form action="kokebeaschalew@gmailcom" id="form">
+                <label for="name">Name <span>*</span>: </label>
+                <input id="name" type="text" placeholder="first-name  last-name" required><br>
+                <label for="age" >Age <span>*</span>: </label>
+                <input type="number" id="age" name="age" min="18" required>
+                <fieldset>
+                    <legend>Gender</legend>
+                    <label for="male">Male</label>
+                    <input id="male" name="gender" type="radio">
+                    <label for="female">Female</label>
+                    <input id="female" name="gender" type="radio">
+                </fieldset>
+                <fieldset>
+                    <legend>What do you like about the page?</legend>
+                    <label for="structure">The website's structure</label>
+                    <input type="checkbox" id="structure" name="structure">
+                    <label for="simplisity">The website's simplisity</label>
+                    <input type="checkbox" id="simplisity" name="simplisity">
+                    <label for="content">The website's content</label>
+                    <input type="checkbox" id="content" name="content">
+                </fieldset>
+                <fieldset>
+                    <legend>Satisfaction Level</legend>
+                    <span>0</span>
+                    <input type="range" min="0" max="100" name="range"><span>100</span>
+                </fieldset>
+                <hr>
+                <span><button type="submit">Submit</button>
+                <button type="reset">Reset</button></span>
+            </form>
+        </section>
+    </main>
+    <footer>
+    <p>&copy; Kokebe Aschalew 2025</p>
+   </footer>
 </body>
 </html>
